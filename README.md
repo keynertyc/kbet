@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# KBet - Soccer Predictions App
 
-## Getting Started
+Web application that allows users to get soccer match predictions using the ChatGPT API from RapidApi and get fixtures from the API Football.
 
-First, run the development server:
+## Stack:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- NextJS 13.3.X
+- TypeScript
+- Axios
+- SWR
+- TailwindCSS
+- [Clerk - Sign in the Box](https://clerk.com/)
+- [API Football](https://rapidapi.com/api-sports/api/api-football)
+- [ChatGPT](https://rapidapi.com/truongvuhung102/api/chatgpt-best-price)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Screenshots:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![Screenshot 1](https://gcdnb.pbrd.co/images/lVUcgKFPW3aU.png?o=1)
 
-[http://localhost:3000/api/hello](http://localhost:3000/api/hello) is an endpoint that uses [Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers). This endpoint can be edited in `app/api/hello/route.ts`.
+![Screenshot 2](https://gcdnb.pbrd.co/images/f7DXJvJz2E3E.png?o=1)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![Screenshot 3](https://gcdnb.pbrd.co/images/aUsKHVdUZLeO.png?o=1)
 
-## Learn More
+![Screenshot 4](https://gcdnb.pbrd.co/images/9BhTP420MKNI.png?o=1)
 
-To learn more about Next.js, take a look at the following resources:
+![Screenshot 5](https://gcdnb.pbrd.co/images/Uv9svHXW23jj.png?o=1)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Screenshot 6](https://gcdnb.pbrd.co/images/4IlDt2z4mzWh.png?o=1)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Installation:
 
-## Deploy on Vercel
+1. Create an account in `https://clerk.com/`and get the API KEYS
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Clone this repository:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```git clone https://github.com/your-username/your-repository.git```
+
+3. Install dependencies:
+
+```npm install```
+
+4. Create a new file `.env.local` and set the required environment variables. You can use the `.env.example` file as a reference.
+
+5. Start the development server:
+  
+  ```npm run dev```
+
+6. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
